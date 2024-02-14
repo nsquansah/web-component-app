@@ -80,24 +80,25 @@ body {
 .checkbox-list {
   list-style: none;
   padding: 0;
-  margin-bottom: 50px;
+  margin: 0;
 }
 
 .checkbox-list li {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   display: flex;
   align-items: center;
+  font: 10px;
 }
 
 input[type="checkbox"] {
-  display: none; /* Hide the default checkbox */
+  display:none;
 }
 
 input[type="checkbox"] + label {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  border: 2px solid #3498db; /* Blue color for the border */
+  border: 2px solid #070808; /* Blue color for the border */
   display: inline-block;
   margin-right: 10px;
   position: relative;
@@ -109,7 +110,7 @@ input[type="checkbox"]:checked + label::before {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
   font-size: 14px;
-  color: #3498db; /* Blue color for the checkmark */
+  color: #34db3f; /* Blue color for the checkmark */
   position: absolute;
   top: 50%;
   left: 50%;
