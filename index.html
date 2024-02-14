@@ -5,25 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Widget Container Example</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-... (your integrity hash)" crossorigin="anonymous" />
 </head>
 <body>
 
   <!-- Container for the widget -->
   <div class="widget-container">
 
-    <!-- Header with the back arrow -->
-    <div class="widget-header">
-      <div class="back-arrow">&larr;</div>
-      <h2>My Widget</h2>
-    </div>
-
     <!-- Widget content -->
     <div class="widget">
       <!-- Your widget content goes here -->
-      <p>This is a widget-like component.</p>
+     <header class="widget-header">
+        <div class="back-arrow">&larr;</div>
+        <h2 class="side">Back to lists</h2>
+     </header>
+  
+   <div class="wid">
+     <h3 class="main">TODAY</h3>
+     <div class="circled-plus"><i class="fas fa-plus-circle"></i></div>
+    
+     <!-- Progress bar with image (created dynamically with JavaScript)
+    <div id="progress-bar-container" class="progress-bar-container">
+        <!-- The progress bar image and text will be added here dynamically -->
+    </div> 
+</div>  
+
+    <div>
+      <ul class="checkbox-list">
+        <li><input type="checkbox" id="checkbox1" checked><label for="checkbox1"></label>Meditation</li>
+        <li><input type="checkbox" id="checkbox2"><label for="checkbox2"></label>Pick up Anna</li>
+        <li><input type="checkbox" id="checkbox3"><label for="checkbox3"></label>Set up a meeting with Jay</li>
+        <li><input type="checkbox" id="checkbox4"><label for="checkbox4"></label>Finish Daily Ui</li>
+        <li><input type="checkbox" id="checkbox5"><label for="checkbox5"></label>Second ets on article</li>
+        <li><input type="checkbox" id="checkbox6" checked><label for="checkbox6"></label>Email Chris/li>
+      </ul>
     </div>
 
-  </div>
+  <script src="scripts.js"></script>
 
 </body>
 </html>
