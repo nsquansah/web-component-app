@@ -45,7 +45,7 @@ body {
   font: 50px;
   margin-left: 20px;
   color: rgb(134, 48, 134);
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .wid{
@@ -63,10 +63,9 @@ body {
 
 .progress-bar-container {
   width: 100%;
-  height: 30px; /* Adjust the height as needed */
-  background-color: #ddd; /* Gray background for the progress bar container */
-  position: absolute; /* Position absolute for overlay */
-  bottom: 0;
+  height: 30px; 
+  background-color: #ddd; 
+  position: absolute; 
   left: 0;
   display: flex;
   align-items: center;
@@ -84,10 +83,11 @@ body {
 }
 
 .checkbox-list li {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   display: flex;
   align-items: center;
   font: 10px;
+  color: rgb(116, 108, 108);
 }
 
 input[type="checkbox"] {
@@ -98,23 +98,68 @@ input[type="checkbox"] + label {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  border: 2px solid #070808; /* Blue color for the border */
+  border: 2px solid #2fc62f; /* Blue color for the border */
   display: inline-block;
   margin-right: 10px;
   position: relative;
   cursor: pointer;
+  
 }
 
 input[type="checkbox"]:checked + label::before {
-  content: '\f00c'; /* Unicode for a checkmark icon */
+  content: '\f00c'; 
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
   font-size: 14px;
-  color: #34db3f; /* Blue color for the checkmark */
+  color: white; 
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background-color: #2fc62f;
+
 }
 
+.para{
+  color: gray;
+}
+
+.c1{
+  border-radius: 20px;
+  align-items: center;
+  color: gray;
+  background-color: yellow;
+  width: 100px;
+  height: 30px;
+}
+
+.c2{
+  border-radius: 20px;
+  align-items: center;
+  color: gray;
+  background-color: green;
+  width: 100px;
+  height: 30px;
+
+}
+
+.c3{
+  border-radius: 20px;
+  align-items: center;
+  color: gray;
+  background-color: red;
+  width: 100px;
+  height: 30px;
+}
+
+.c4{
+  border-radius: 2px;
+  align-items: center;
+  color: gray;
+  background-color: rgba(54, 54, 93, 0.51)
+}
+
+.footer{
+  display:inline-block
+}
 /* Add additional styling as needed */
