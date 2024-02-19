@@ -123,6 +123,7 @@ input[type="checkbox"]:checked + label::before {
 
 .para{
   color: rgb(146, 134, 134);
+  margin-top: 5px;
 }
 
 .c1{
@@ -147,14 +148,6 @@ input[type="checkbox"]:checked + label::before {
 
 }
 
-/* .c3{
-  border-radius: 100px;
-  align-items: center;
-  color: gray;
-  background-color: yellow;
-  width: 100px;
-  height: 30px;
-} */
 
 .c4{
   border-radius: 100px;
@@ -185,5 +178,6 @@ input[type="checkbox"]:checked + label::before {
 
 .footer2{
   display: inline-block;
+  margin-bottom: 5px;
 }
 /* Add additional styling as needed */
